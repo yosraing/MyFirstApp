@@ -1,0 +1,19 @@
+
+<html>
+<head>
+<script type="text/javascript">
+$('#monImage').on({
+'click': function() {
+var src = ($(this).attr('src') === 'img_01.png')
+? 'img_02.png'
+: 'img_01.png';
+$(this).attr('src', src);
+}
+});
+</script>
+</head>
+<body>
+
+</body>
+</html>
+
